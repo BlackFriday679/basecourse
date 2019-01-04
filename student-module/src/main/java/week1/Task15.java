@@ -11,7 +11,23 @@ public class Task15 {
     public static void main(String[] args) {
         int number = Integer.parseInt(args[0]);
 
-        //      Yours code...
+        int one = number % 10;
+        int two = (number/10) % 10;
+        int three = number / 100;
+
+        int k = 0;
+
+        if(one == 5){
+            k++;
+        }
+        if(two == 5){
+            k++;
+        }
+        if(three == 5){
+            k++;
+        }
+
+        System.out.println(k);
 
     }
 }

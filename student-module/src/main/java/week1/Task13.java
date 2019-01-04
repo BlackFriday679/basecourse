@@ -12,8 +12,6 @@ public class Task13 {
         int circle = Integer.parseInt(args[0]);
         int square = Integer.parseInt(args[1]);
 
-//   Работает нормально у визуализаторе, здесь пишет ошибку
-
         double stor = Math.sqrt(square);
         double diag = stor * Math.sqrt(2);
         double diam = 2 * (Math.sqrt((circle)/Math.PI));

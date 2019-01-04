@@ -8,7 +8,15 @@ public class Task12 {
     public static void main(String[] args) {
         int number = Integer.parseInt(args[0]);
 
-        //      Yours code...
+        int a = number / 1000;
+        int b = number % 1000;
 
+        if (a == b) {
+            System.out.println(" True ");
+        } else {
+            System.out.println(" False ");
+        }
     }
 }
+
+

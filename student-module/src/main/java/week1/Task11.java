@@ -9,7 +9,17 @@ public class Task11 {
     public static void main(String[] args) {
         int number = Integer.parseInt(args[0]);
 
-        //      Yours code...
+        int a = number % 10;
 
+        if (a == 0) {
+            System.out.println(number + " копеек ");
+        }else  if (a == 1) {
+            System.out.println(number + " копейка ");
+        } else if (a >= 2 && a <= 4){
+            System.out.println(number + " копейки ");
+        } else {
+            System.out.println(number + " копеек " );
+        }
     }
 }
+
